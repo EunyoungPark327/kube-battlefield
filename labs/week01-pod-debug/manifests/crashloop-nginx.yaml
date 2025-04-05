@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: crashloop-nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    command: ["/bin/sh", "-c", "exit 1"] # 일부러 실패시킴
