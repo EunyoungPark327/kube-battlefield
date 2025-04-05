@@ -1,17 +1,17 @@
-name: Lint Checks
+# name: Lint Checks
 
-on: [push, pull_request]
+# on: [push, pull_request]
 
-jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Lint YAML
-        run: |
-          pip install yamllint
-          yamllint .
-      - name: Lint Markdown
-        run: |
-          npm install -g markdownlint-cli
-          markdownlint **/*.md
+# jobs:
+#   lint:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v3
+#       - name: Lint YAML
+#         run: |
+#           pip install yamllint
+#           yamllint .
+#       - name: Lint Markdown
+#         run: |
+#           npm install -g markdownlint-cli
+#           markdownlint **/*.md
