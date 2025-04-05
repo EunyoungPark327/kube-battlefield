@@ -6,8 +6,8 @@
 
 - `kubectl get pods` 결과 `CrashLoopBackOff` 상태 확인됨
 - 재시작이 계속 반복되고 있음
-![Pod 상태](./images/crashlooback-error.png)
-![Pod 상태](./images/crashlooback-error2.png)
+![Pod 상태](./images/crashloopback-error.png)
+![Pod 상태](./images/crashloopback-error2.png)
 
 ### 🧨 원인
 
