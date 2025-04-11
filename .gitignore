@@ -3,3 +3,9 @@
 .idea/
 __pycache__/
 *.pyc
+
+.terraform*
+*.tfstate
+*.tfstate.backup
+*back
+*.log
