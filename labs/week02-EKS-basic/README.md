@@ -9,11 +9,11 @@ EKS 기반 VPC, 서브넷 구성 후, ALB와 함께 Spring Boot 앱을 배포하
 ### 1. Terraform IaC 구성
 
 - VPC, Public/Private Subnet, NAT Gateway, IGW 구성
-- `terraform-aws-modules/vpc/aws` 공식 모듈 활용
+  - `terraform-aws-modules/vpc/aws` 공식 모듈 활용
 - EKS 클러스터 및 워커 노드 (Managed Node Group) 생성
-- `terraform-aws-modules/eks/aws` 활용
+  - `terraform-aws-modules/eks/aws` 활용
 - ALB Controller 설치 (Helm 사용)
-- `kubernetes_manifest` or `kubectl apply`로 서비스 배포
+  - `kubernetes_manifest` or `kubectl apply`로 서비스 배포
 
 ### 2. Spring Boot App 배포
 
